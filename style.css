@@ -1,7 +1,7 @@
 /* redid this section to start as mobile and tablet */
 body {
     margin: 0;
-    background-image: url("../images/Circuit.jpeg")
+    background-image: url("./Circuit.jpeg")
 }
 
 nav {
