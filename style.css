@@ -1,5 +1,4 @@
-/* redid this section to start as mobile and tablet */
-body {
+.body {
     margin: 0;
     background-image: url("./Circuit.jpeg")
 }
@@ -180,8 +179,27 @@ input[type=submit]:hover {
     height: 300px;
     float: right;
 }
+#splashBody {
+    background-color: white;
+    align-content: center;
+    text-align: center;
+}
+#splashContainer {
+    align-content: center;
+    text-align: center;
+}
+#logic {
+    height: 100%;
+    width: auto;
+    position: relative;
+}
+#creativity {
+    height: 100%;
+    width: auto;
+    position: relative;
+}
 
-/* added this section to set breakpoint after mobile and tablet size */
+/*added this section to set breakpoint after mobile and tablet size*/
 
 @media screen and (min-width:768px) {
     section {
@@ -279,20 +297,16 @@ input[type=submit]:hover {
         margin: 50px 50px 50px 50px
     }
 
-    #profilepic {
-
+    #splashBody {
+        background-color: white;
+        align-content: center;
+        text-align: center;
     }
-
-    #cat {
-        
+    #splashContainer {
+        align-content: center;
+        text-align: center;
     }
 }
-
-/* this setting was not needed as all sizing above tablet is done by %
-@media screen and (min-width:980px) {
-    
-}
-*/
 
 @media screen and (max-width:768px) {
     #links {

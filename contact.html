@@ -12,14 +12,14 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 
-<body>
+<body class="body">
 
     <nav>
         <div id="name">Tyson Parkin</div>
         <ul id="links">
             <li><a href="contact.html">Contact</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="index.html">About</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
     </nav>
 
@@ -27,11 +27,13 @@
         <h1>Contact</h1>
         <hr>
         <form target="_blank">
-            Name
-            <input type="text" placeholder="Your name.."> Email
-            <input type="text" placeholder="Your email.."> Message
-            <input type="text" placeholder="Your comments..">
-            <input type="submit" value="Submit">
+            <label for="name">Name: </label>
+            <input type="text" placeholder="Your name.." id="name">
+            <label for="email">Email: </label>
+            <input type="text" placeholder="Your email.." id="email">
+            <label for="comments">Comments: </label>
+            <input type="text" placeholder="Your comments.." id="comments">
+            <input type="submit" value="Submit" id="submit">
         </form>
     </section>
 
@@ -39,6 +41,9 @@
         <p>Copyright &copy;</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="./javascript.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
 </body>
 
 </html>
