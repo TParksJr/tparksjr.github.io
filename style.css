@@ -3,6 +3,11 @@
     background-image: url("./Circuit.jpeg")
 }
 
+img {
+    height: 300px;
+    width: 300px;
+}
+
 nav {
     background-color: white;
     height: auto;
