@@ -1,0 +1,17 @@
+#splashBody {
+    position: relative;
+    align-content: center;
+    margin: 0px 0px 0px 100px;
+}
+
+#logic {
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+
+#creativity {
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
