@@ -44,7 +44,7 @@ $(function () {
         database.ref().push({
             name: name,
             email: email,
-            comment: comment,
+            comments: comments,
             dateAdded: firebase.database.ServerValue.TIMESTAMP
         });
         
