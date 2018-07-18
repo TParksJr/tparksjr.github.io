@@ -37,7 +37,7 @@ $(function () {
 
         event.preventDefault();
 
-        var name = $("#name").val().trim(),
+        var name = $("#nameInput").val().trim(),
             email = $("#email").val().trim(),
             comments = $("#comments").val().trim();
 
