@@ -41,7 +41,7 @@ $(function () {
             email = $("#email").val().trim(),
             comments = $("#comments").val().trim();
 
-        database.ref().push({
+        database.ref("messages").push({
             name: name,
             email: email,
             comments: comments,
